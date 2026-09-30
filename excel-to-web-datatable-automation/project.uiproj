@@ -1,0 +1,6 @@
+{
+  "Name": "excel-to-web-datatable-automation",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}

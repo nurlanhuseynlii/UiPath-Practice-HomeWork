@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Search for Teams",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "FTxBPSqDPk-zEDyQMPcxzw",
+  "Reference": "mUTh4hexsESNmygvWwc7Dw/FTxBPSqDPk-zEDyQMPcxzw",
+  "ParentRef": "mUTh4hexsESNmygvWwc7Dw/bEpc95Nui0WHV2MRas9xjw",
+  "Created": "2026-09-29T22:54:17.861286Z",
+  "Updated": "2026-09-29T22:54:17.861286Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

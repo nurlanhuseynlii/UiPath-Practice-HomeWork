@@ -1,0 +1,282 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="652.8,2820" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="652.8,2796.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="619.2,2713.6" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+        <ueab:ExcelProcessScopeX.Body>
+          <ActivityAction x:TypeArguments="ui:IExcelProcess">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="617.6,2644" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="CurTeamName" />
+                <Variable x:TypeArguments="sd2:DataTable" Name="Dt_ExtData" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome Hockey Teams Forms, Searching and Pagi" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="584,2584" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="13b76e08-b1cd-423c-888d-0a572fb3764a" Version="V2" WindowResize="Maximize">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="582.4,2389.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ueab:ExcelApplicationCard DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="548.8,2329.6" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="C:\Users\nurla\Downloads\Team.xlsx">
+                        <ueab:ExcelApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="547.2,2110.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="513.6,2050.4" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" SaveAfterEachRow="False">
+                                <ueab:ExcelForEachRowX.Body>
+                                  <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                                    <ActivityAction.Argument1>
+                                      <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                                    </ActivityAction.Argument1>
+                                    <ActivityAction.Argument2>
+                                      <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                                    </ActivityAction.Argument2>
+                                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1877.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                      <Sequence.Variables>
+                                        <Variable x:TypeArguments="x:String" Name="TeamName" />
+                                        <Variable x:TypeArguments="x:Int32" Default="0" Name="CurrentIndex" />
+                                        <Variable x:TypeArguments="x:String" Name="Cur" />
+                                        <Variable x:TypeArguments="x:String" Name="Count" />
+                                      </Sequence.Variables>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ueab:WriteCellX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;B1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="478.4,220.8" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[&quot;Count&quot;]" />
+                                      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,149.6" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                                        <ui:MultipleAssign.AssignOperations>
+                                          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:String">[CurTeamName]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:String">[CurrentRow("Team Name").ToString.Trim()]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                          </scg:List>
+                                        </ui:MultipleAssign.AssignOperations>
+                                      </ui:MultipleAssign>
+                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search for Teams'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,296.8" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="13b76e08-b1cd-423c-888d-0a572fb3764a" Text="[CurTeamName]" Version="V5">
+                                        <uix:NTypeInto.Target>
+                                          <uix:TargetAnchorable BrowserURL="scrapethissite.com/pages/forms" ContentHash="kHEnhVpmHUy_Ou1kOeY2PA" DesignTimeRectangle="871, 600, 250, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='q' tag='INPUT' type='text' class='form-control' placeholder='Search for Teams' aaname='                                 Search for Teams:                               ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2ae836a1-ab27-449d-8363-963305fdee42" InformativeScreenshot="7d89966621d9cb65d0b5da7406ee6ac4.jpg" IsResponsive="True" Reference="mUTh4hexsESNmygvWwc7Dw/FTxBPSqDPk-zEDyQMPcxzw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target DesignTimeRectangle="705, 607, 161, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='                                 Search for Teams:                               ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Search for Teams:' /&gt;" Guid="33cb1166-1ef1-46af-9a2f-5f817a986386" SearchSteps="FuzzySelector" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NTypeInto.Target>
+                                        <uix:NTypeInto.VerifyOptions>
+                                          <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                              <InArgument x:TypeArguments="x:Boolean" />
+                                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                              <InArgument x:TypeArguments="x:Double" />
+                                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                          </uix:VerifyExecutionTypeIntoOptions>
+                                        </uix:NTypeInto.VerifyOptions>
+                                      </uix:NTypeInto>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,244.8" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13b76e08-b1cd-423c-888d-0a572fb3764a" Version="V5">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="scrapethissite.com/pages/forms" ContentHash="5MnilrbtoUWFj5BsKKqcAg" DesignTimeRectangle="1126, 600, 88, 42" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="4d5a9ac3-2b24-4334-a8ee-05c86dfd0240" InformativeScreenshot="d3be28d94feb85d2e8b0199d381ecbde.jpg" Reference="mUTh4hexsESNmygvWwc7Dw/lWHakAxgS06QrI5VZFFgmA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                        </uix:NClick.Target>
+                                      </uix:NClick>
+                                      <uix:NExtractDataGeneric x:TypeArguments="sd2:DataTable" ContinueOnError="True" DisplayName="Extract Table Data 'TABLE'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Team Name' ReferenceIdx='0' Name='Team Name'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Year' ReferenceIdx='1' Name='Year'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Wins' ReferenceIdx='2' Name='Wins'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Losses' ReferenceIdx='3' Name='Losses'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='OT Losses' ReferenceIdx='4' Name='OT Losses'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Win %' ReferenceIdx='5' Name='Win %'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Goals For (GF)' ReferenceIdx='6' Name='Goals For (GF)'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Goals Against (GA)' ReferenceIdx='7' Name='Goals Against (GA)'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='+ / -' ReferenceIdx='8' Name='+ / -'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Team Name' attr='fulltext' /&gt;&lt;column name='Year' attr='fulltext' /&gt;&lt;column name='Wins' attr='fulltext' /&gt;&lt;column name='Losses' attr='fulltext' /&gt;&lt;column name='OT Losses' attr='fulltext' /&gt;&lt;column name='Win %' attr='fulltext' /&gt;&lt;column name='Goals For (GF)' attr='fulltext' /&gt;&lt;column name='Goals Against (GA)' attr='fulltext' /&gt;&lt;column name='+ / -' attr='fulltext' /&gt;&lt;/extract-table&gt;" ExtractedData="[Dt_ExtData]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,193.6" sap2010:WorkflowViewState.IdRef="NExtractDataGeneric`1_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="13b76e08-b1cd-423c-888d-0a572fb3764a" Version="V5">
+                                        <uix:NExtractDataGeneric.Target>
+                                          <uix:TargetAnchorable BrowserURL="https://www.scrapethissite.com/pages/forms/?q=Boston+Bruins" ContentHash="DqL9lxov8UKPv8U8jbgQIw" DesignTimeRectangle="247, 564, 1425, 1012" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="0d7b4c5d-576d-4908-b54b-3837871dcaf2" InformativeScreenshot="f1d869843c1a3ccf78c42f690fd5d161.jpg" Reference="mUTh4hexsESNmygvWwc7Dw/DAjtloX6RkCnIcFCgt3d4Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                        </uix:NExtractDataGeneric.Target>
+                                      </uix:NExtractDataGeneric>
+                                      <ueab:WriteCellX Cell="[CurrentRow(&quot;Count&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="478.4,220.8" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[Dt_ExtData.RowCount.ToString]" />
+                                      <If Condition="[Dt_ExtData.RowCount &gt; 0]" sap:VirtualizedContainerService.HintSize="478.4,491.2" sap2010:WorkflowViewState.IdRef="If_1">
+                                        <If.Then>
+                                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,272" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ueab:WriteRangeX Destination="[Excel.Sheet(CurTeamName)]" DisplayName="Write DataTable to Excel" sap:VirtualizedContainerService.HintSize="416,212" sap2010:WorkflowViewState.IdRef="WriteRangeX_1" IgnoreEmptySource="False" Source="[Dt_ExtData]" />
+                                          </Sequence>
+                                        </If.Then>
+                                        <If.Else>
+                                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </If.Else>
+                                      </If>
+                                    </Sequence>
+                                  </ActivityAction>
+                                </ueab:ExcelForEachRowX.Body>
+                              </ueab:ExcelForEachRowX>
+                            </Sequence>
+                          </ActivityAction>
+                        </ueab:ExcelApplicationCard.Body>
+                      </ueab:ExcelApplicationCard>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.OCREngine>
+                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                    <ActivityFunc.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                    </ActivityFunc.Argument>
+                  </ActivityFunc>
+                </uix:NApplicationCard.OCREngine>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="nwulfEtTvUyC9buJi9bwJw" IconBase64="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" InformativeScreenshot="c93ff7c5cf08fe07b3ba03a2d942a013.jpg" Reference="mUTh4hexsESNmygvWwc7Dw/bEpc95Nui0WHV2MRas9xjw" Selector="&lt;html app='chrome.exe' title='Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping' /&gt;" Url="https://www.scrapethissite.com/pages/forms/?page_num=1" Version="V3" />
+                </uix:NApplicationCard.TargetApp>
+              </uix:NApplicationCard>
+            </Sequence>
+          </ActivityAction>
+        </ueab:ExcelProcessScopeX.Body>
+      </ueab:ExcelProcessScopeX>
+    </Sequence>
+  </Sequence>
+</Activity>

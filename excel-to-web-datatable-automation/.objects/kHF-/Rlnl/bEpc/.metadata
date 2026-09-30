@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Hockey Teams Forms, Searching and Pagi",
+  "Type": "Screen",
+  "Id": "bEpc95Nui0WHV2MRas9xjw",
+  "Reference": "mUTh4hexsESNmygvWwc7Dw/bEpc95Nui0WHV2MRas9xjw",
+  "ParentRef": "mUTh4hexsESNmygvWwc7Dw/RlnlOngB1Eq-NovaUyO15g",
+  "Created": "2026-09-29T22:52:05.3233111Z",
+  "Updated": "2026-09-29T22:52:05.3233111Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

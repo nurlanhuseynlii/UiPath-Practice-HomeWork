@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5MnilrbtoUWFj5BsKKqcAg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="scrapethissite.com/pages/forms" DesignTimeRectangle="1126, 600, 88, 42" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="4d5a9ac3-2b24-4334-a8ee-05c86dfd0240" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hockey Teams: Forms, Searching and Pagination | Scrape This Site | A public sandbox for learning web scraping' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d3be28d94feb85d2e8b0199d381ecbde.jpg" xmlns="">0o7oJ4bGAj0aDZyEDg-5_pw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

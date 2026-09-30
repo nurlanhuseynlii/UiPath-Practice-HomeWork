@@ -1,0 +1,13 @@
+﻿{
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Id": "RlnlOngB1Eq-NovaUyO15g",
+  "Reference": "mUTh4hexsESNmygvWwc7Dw/RlnlOngB1Eq-NovaUyO15g",
+  "ParentRef": "mUTh4hexsESNmygvWwc7Dw/kHF-_HXVK0e-sdmEWA9MNA",
+  "Created": "2026-09-29T22:52:05.3034035Z",
+  "Updated": "2026-09-29T22:52:05.3034035Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
